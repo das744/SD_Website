@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Responsive Webpage with Sections</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"> <!-- Font Awesome -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Mobile responsiveness -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sedan:ital@0;1&display=swap" rel="stylesheet">
+  </head>
+  
+<body>
+    <!-- Navbar -->
+    <div class="navbar">
+        <div class="logo">LOGO</div>
+        <i class="fas fa-bars hamburger" id="hamburger-menu"></i> <!-- Hamburger menu for mobile -->
+        <ul class="menu" id="menu"> <!-- Navigation menu -->
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="social-media"> <!-- Social media icons -->
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </div>
+    <!-- navbar ends -->
+
+    <!-- Main section -->
+    <div class="main">
+        <!-- Left side -->
+        <div class="left">
+            <div class="subheading">Welcome to</div>
+            <div class="heading">Our Company</div>
+            <div class="text">We specialize in creating amazing products and services.</div>
+            <button class="button">Contact Me</button> <!-- Contact button -->
+            
+            <!-- Statistics section -->
+            <div class="statistics">
+                <div class="stat">
+                    <div class="number">100+</div>
+                    <div class="label">User</div>
+                </div>
+                <div class="stat">
+                    <div class="number">50+</div>
+                    <div class="label">Projects</div>
+                </div>
+                <div class="stat">
+                    <div class="number">30+</div>
+                    <div class="label">Companys</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Right side with background box and image -->
+        <div class="right">
+            <div class="background-box"></div>
+            <div class="image">
+                <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80" alt="Web Developer Image"  />
+            </div>
+        </div>
+    </div>
+
+    <!-- About section -->
+    <div class="about" id="about">
+        <h2>About Us</h2>
+        <p>We are a team of passionate professionals dedicated to providing top-notch services and products. Our mission is to deliver quality, innovation, and customer satisfaction.</p>
+    </div>
+
+    <!-- Services section -->
+    <div class="services" id="services">
+        <h2>Our Services</h2>
+        <div class="service-grid">
+            <div class="service">
+                <i class="fas fa-cogs"></i>
+                <h3>Consulting</h3>
+                <p>We offer expert consulting services to help you achieve your business goals.</p>
+            </div>
+            <div class="service">
+                <i class="fas fa-laptop-code"></i>
+                <h3>Software Development</h3>
+                <p>Our team develops cutting-edge software solutions tailored to your needs.</p>
+            </div>
+            <div class="service">
+                <i class="fas fa-chalkboard-teacher"></i>
+                <h3>Training</h3>
+                <p>We provide comprehensive training programs to enhance your team's skills.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Pricing section -->
+    <div class="pricing" id="pricing">
+        <h2>Pricing Plans</h2>
+        <div class="pricing-grid">
+            <div class="price">
+                <div class="price_icon">
+                    <i class="fas fa-paper-plane"></i>
+                </div>
+                <h3>Basic Plan</h3>
+                <p class="price-value">$49/mo</p>
+                <p>Includes essential services for startups and small businesses.</p>
+                <div class="list">
+                <ul>
+                    <li>Lorem, ipsum dolor.</li>
+                    <li>Lorem, ipsum Dolor.</li>
+                    <li>Lorem, ipsum dolor.</li>
+                    <li>Lorem, ipsum.</li>
+                    <li>Lorem, ipsum.</li>
+                </ul>
+                </div>
+                <button> Contact US</button>
+            </div>
+            <div class="price">
+                <div class="price_icon">
+                   
+                    <i class="fas fa-plane"></i>
+                </div>
+                <h3>Standard Plan</h3>
+                <p class="price-value">$99/mo</p>
+                <p>Provides additional features and support for growing businesses.</p>
+                <div class="list">
+                <ul>
+                    <li>Lorem, ipsum dolor.</li>
+                    <li>Lorem, ipsum Dolor.</li>
+                    <li>Lorem, ipsum dolor.</li>
+                    <li>Lorem, ipsum.</li>
+                    <li>Lorem, ipsum.</li>
+                </ul>
+            </div>
+                <button> Contact US</button>
+            </div>
+            <div class="price">
+                <div class="price_icon">
+                    <i class="fas fa-fighter-jet"></i>
+                </div>
+                <h3>Premium Plan</h3>
+                <p class="price-value">$199/mo</p>
+                <p>Offers comprehensive services for large-scale enterprises and custom solutions.</p>
+                <div class="list">
+                <ul>
+                    <li>Lorem, ipsum dolor.</li>
+                    <li>Lorem, ipsum Dolor.</li>
+                   <li>Lorem, ipsum dolor.</li>
+                   <li>Lorem, ipsum.</li>
+                    <li>Lorem, ipsum.</li>
+                </ul>
+            </div>
+                <button> Contact US</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Us section -->
+    <div class="contact" id="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or inquiries, feel free to reach out to us through the form below or via email at contact@ourcompany.com.</p>
+        <form>
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+
+    <!-- Footer section -->
+    <div class="footer">
+        <p>&copy; 2024 My Company. All rights reserved.</p>
+        <div class="social-media">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </div>
+
+    <!-- JavaScript for responsive navbar -->
+    <script>
+        const hamburgerMenu = document.getElementById('hamburger-menu'); 
+        const menu = document.getElementById('menu'); 
+
+        hamburgerMenu.addEventListener('click', () => {
+            if (menu.classList.contains('closed')) {
+                menu.classList.remove('closed'); 
+                menu.classList.add('open'); 
+            } else {
+                menu.classList.remove('open'); 
+                menu.classList.add('closed'); 
+            }
+        });
+    </script>
+</body>
+</html>
